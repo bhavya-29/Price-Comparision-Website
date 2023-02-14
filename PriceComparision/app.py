@@ -24,8 +24,8 @@ app.secret_key = 'PriceComparision Project by Bhavya'
 
 app.config["MAIL_SERVER"]='smtp.gmail.com'  
 app.config["MAIL_PORT"] = 465      
-app.config["MAIL_USERNAME"] = 'bhavyasri5e5@gmail.com'  
-app.config['MAIL_PASSWORD'] = 'justsmile@01'  
+app.config["MAIL_USERNAME"] = '*********@gmail.com'  
+app.config['MAIL_PASSWORD'] = '********'  
 app.config['MAIL_USE_TLS'] = False  
 app.config['MAIL_USE_SSL'] = True  
 #app.config['MAIL_SENDER'] = 'walkersunion345679@gmail.com'
@@ -35,7 +35,7 @@ app.config['SECURITY_PASSWORD_SALT'] = 'my_precious_two'
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Workandchange@01'
+app.config['MYSQL_PASSWORD'] = '*******'
 app.config['MYSQL_DB'] = 'PriceComparision'
 #mysql.init_app(app)
 CORS(app)
